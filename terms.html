@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Service — Earthling Studio</title>
+<meta name="description" content="Terms of service for apps published by Earthling Studio.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2310b981'/%3E%3Ctext x='16' y='22' font-family='Arial,sans-serif' font-size='16' font-weight='700' fill='white' text-anchor='middle'%3EE%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: { extend: { fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] } } }
+  }
+</script>
+<style>
+  body { font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; }
+</style>
+</head>
+<body class="bg-white text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-50">
+
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:rounded-lg focus:bg-zinc-900 focus:px-4 focus:py-2 focus:text-white">Skip to content</a>
+
+<!-- ============ Navigation ============ -->
+<header class="sticky top-0 z-40 border-b border-zinc-200/70 bg-white/80 backdrop-blur-md dark:border-zinc-800/70 dark:bg-zinc-950/80">
+  <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8" aria-label="Main">
+    <a href="index.html" class="flex items-center gap-2.5 font-bold tracking-tight">
+      <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-400 to-sky-500 text-sm font-extrabold text-white shadow-sm" aria-hidden="true">E</span>
+      <span class="text-lg">Earthling Studio</span>
+    </a>
+
+    <div class="hidden items-center gap-8 md:flex">
+      <a href="index.html" class="text-sm font-medium text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">Home</a>
+      <a href="apps.html" class="text-sm font-medium text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">Apps</a>
+      <a href="privacy.html" class="text-sm font-medium text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white">Privacy</a>
+      <a href="apps.html" class="rounded-full bg-zinc-900 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200">Download Apps</a>
+    </div>
+
+    <button id="menu-btn" type="button" class="inline-flex items-center justify-center rounded-lg p-2 text-zinc-700 hover:bg-zinc-100 md:hidden dark:text-zinc-200 dark:hover:bg-zinc-800" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle menu">
+      <svg id="icon-open" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
+      <svg id="icon-close" class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+    </button>
+  </nav>
+
+  <div id="mobile-menu" class="hidden border-t border-zinc-200 px-4 pb-4 md:hidden dark:border-zinc-800">
+    <div class="flex flex-col gap-1 pt-3">
+      <a href="index.html" class="rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:bg-zinc-800">Home</a>
+      <a href="apps.html" class="rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:bg-zinc-800">Apps</a>
+      <a href="privacy.html" class="rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:bg-zinc-800">Privacy</a>
+      <a href="apps.html" class="mt-2 rounded-full bg-zinc-900 px-4 py-2 text-center text-sm font-semibold text-white dark:bg-white dark:text-zinc-900">Download Apps</a>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+
+  <h1 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Terms of Service</h1>
+  <p class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">Last updated: 28 August 2026</p>
+
+  <p class="mt-8 leading-relaxed text-zinc-600 dark:text-zinc-400">
+    These terms apply to apps published by Earthling Studio ("we", "us",
+    "our apps"). By downloading or using one of our apps, you agree to
+    these terms.
+  </p>
+
+  <div class="mt-10 space-y-10">
+    <section>
+      <h2 class="text-xl font-bold">Use of our apps</h2>
+      <p class="mt-3 leading-relaxed text-zinc-600 dark:text-zinc-400">
+        Our apps are provided for personal, non-commercial use. You agree
+        not to misuse them — including attempting to reverse engineer,
+        disrupt, or gain unauthorized access to any part of an app or its
+        backing services.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold">Third-party content and trademarks</h2>
+      <p class="mt-3 leading-relaxed text-zinc-600 dark:text-zinc-400">
+        Some of our apps are unofficial fan-made reference tools. Any
+        third-party game names, artwork, trademarks, and data they
+        reference remain the property of their respective owners. These
+        apps are not affiliated with, endorsed by, or sponsored by those
+        owners.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold">Purchases</h2>
+      <p class="mt-3 leading-relaxed text-zinc-600 dark:text-zinc-400">
+        Where an app offers in-app purchases or subscriptions, they are
+        billed and fulfilled through Apple's App Store or Google Play and
+        subject to that store's own terms and refund policies.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold">No warranty</h2>
+      <p class="mt-3 leading-relaxed text-zinc-600 dark:text-zinc-400">
+        Our apps are provided "as is," without warranties of any kind. We
+        do our best to keep content accurate and up to date, but we don't
+        guarantee that everything in an app is complete or error-free.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold">Limitation of liability</h2>
+      <p class="mt-3 leading-relaxed text-zinc-600 dark:text-zinc-400">
+        To the fullest extent permitted by law, Earthling Studio is not
+        liable for any indirect, incidental, or consequential damages
+        arising from your use of our apps.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold">Changes to these terms</h2>
+      <p class="mt-3 leading-relaxed text-zinc-600 dark:text-zinc-400">
+        If these terms change, the "Last updated" date above will be
+        revised.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-bold">Contact</h2>
+      <p class="mt-3 leading-relaxed text-zinc-600 dark:text-zinc-400">
+        Questions about these terms can be raised via
+        <a href="https://github.com/earthlin9/home/issues" target="_blank" rel="noopener" class="font-medium text-emerald-600 underline underline-offset-2 hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300">this repository's issue tracker</a>.
+      </p>
+    </section>
+  </div>
+
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="border-t border-zinc-200 bg-zinc-50/60 dark:border-zinc-800 dark:bg-zinc-900/40">
+  <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+    <div class="grid gap-10 sm:grid-cols-2 md:grid-cols-4">
+      <div class="sm:col-span-2 md:col-span-2">
+        <a href="index.html" class="flex items-center gap-2.5 font-bold tracking-tight">
+          <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-400 to-sky-500 text-sm font-extrabold text-white" aria-hidden="true">E</span>
+          <span class="text-lg">Earthling Studio</span>
+        </a>
+        <p class="mt-4 max-w-sm text-sm text-zinc-500 dark:text-zinc-400">
+          Some Earthling Studio apps are unofficial fan-made references.
+          Any third-party game names, artwork, and data they reference
+          remain the property of their respective owners, and those apps
+          are not affiliated with or endorsed by them.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-sm font-semibold text-zinc-900 dark:text-white">Quick links</h4>
+        <ul class="mt-4 space-y-2 text-sm text-zinc-500 dark:text-zinc-400">
+          <li><a href="index.html" class="transition hover:text-zinc-900 dark:hover:text-white">Home</a></li>
+          <li><a href="apps.html" class="transition hover:text-zinc-900 dark:hover:text-white">Apps</a></li>
+          <li><a href="privacy.html" class="transition hover:text-zinc-900 dark:hover:text-white">Privacy Policy</a></li>
+          <li><a href="terms.html" class="transition hover:text-zinc-900 dark:hover:text-white">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-sm font-semibold text-zinc-900 dark:text-white">Connect</h4>
+        <ul class="mt-4 space-y-2 text-sm text-zinc-500 dark:text-zinc-400">
+          <li>
+            <a href="https://github.com/earthlin9" target="_blank" rel="noopener" class="inline-flex items-center gap-2 transition hover:text-zinc-900 dark:hover:text-white">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.16c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 015.73 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .3.21.66.79.55A10.51 10.51 0 0023.5 12c0-6.35-5.15-11.5-11.5-11.5z"/></svg>
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/earthlin9/home/issues" target="_blank" rel="noopener" class="transition hover:text-zinc-900 dark:hover:text-white">Contact / Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-12 flex flex-col items-center justify-between gap-4 border-t border-zinc-200 pt-6 text-xs text-zinc-500 sm:flex-row dark:border-zinc-800 dark:text-zinc-500">
+      <p>&copy; <span id="year"></span> Earthling Studio. All rights reserved.</p>
+      <div class="flex gap-4">
+        <a href="privacy.html" class="transition hover:text-zinc-900 dark:hover:text-white">Privacy Policy</a>
+        <a href="terms.html" class="transition hover:text-zinc-900 dark:hover:text-white">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const iconOpen = document.getElementById('icon-open');
+  const iconClose = document.getElementById('icon-close');
+
+  menuBtn.addEventListener('click', () => {
+    const isOpen = !mobileMenu.classList.contains('hidden');
+    mobileMenu.classList.toggle('hidden');
+    iconOpen.classList.toggle('hidden');
+    iconClose.classList.toggle('hidden');
+    menuBtn.setAttribute('aria-expanded', String(!isOpen));
+  });
+</script>
+
+</body>
+</html>
